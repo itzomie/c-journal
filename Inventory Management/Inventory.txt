@@ -1,0 +1,6 @@
+Asset Number : 201
+Asset Name : omie
+Asset Price : 345.00
+Asset Number : 202
+Asset Name : akshata
+Asset Price : 435.00
