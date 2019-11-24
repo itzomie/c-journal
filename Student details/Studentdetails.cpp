@@ -1,3 +1,5 @@
+/* this program is coded by Omkar Sulakhe.*/
+
 #include<iostream>
 using namespace std;
 int j=0;
@@ -9,7 +11,7 @@ private :
     float total,percentage;
 
 public :
-    studentinfo()
+    studentinfo() //to get  student information function 
     {
         j++;
         cout<<"Enter the Information of student "<<j<<endl;
@@ -20,12 +22,12 @@ public :
         cout<<"Enter the marks of the marks of three subjects : "<<endl;
         cin>>m1>>m2>>m3;
     }
-    void calculate()
+    void calculate()  // calculate avg function
     {
         total=m1+m2+m3;
         percentage=(total/3);
     }
-    void showdata()
+    void showdata() // display function
     {
         cout<<"||||||||||||||||||||||||||||||||||||\n";
         cout<<"\tThe student name is : "<<name<<endl;
@@ -34,16 +36,16 @@ public :
         cout<<"\tThe Total is : "<<total<<endl<<"The percentage is :"<<percentage<<"%"<<endl;
         cout<<"||||||||||||||||||||||||||||||||||||\n";
     }
-};
+}; //class student info
 int main()
 {
     int i,n;
     cout<<"Enter the number of students :"<<endl;
     cin>>n;
-    studentinfo s[n];
+    studentinfo s[n]; // decleration of class student
     for(i=0;i<n;i++)
     {
-        s[i].calculate();
-        s[i].showdata();
+        s[i].calculate(); // call calculate
+        s[i].showdata(); // call show data
     }
 }
