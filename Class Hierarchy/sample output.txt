@@ -1,0 +1,41 @@
+Enter name :
+omkar
+Enter Department :
+ece
+Enter empid :
+205
+Enter name :
+rao
+Enter Department :
+civil
+Enter empid :
+206
+
+Department : ece
+Bonus : 5000
+
+Department : civil
+Bonus : 3000
+
+No. of supervisors : 100
+
+ Name : omkar
+
+ Department : ece
+
+ No. of employees : 100
+
+ Bonus : 5000
+
+No. of salesmen : 50
+
+ Name : rao
+
+ Department : civil
+
+ No. of employees : 50
+
+ Bonus : 3000
+
+Process returned 0 (0x0)   execution time : 37.055 s
+Press any key to continue.
